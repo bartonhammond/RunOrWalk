@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+/* portrait */
+@media screen and (orientation:portrait) {
+    .indentMinTen {
+	margin-left: 0px;
+    }
+    
+    img {
+	max-width: 20%;
+    }
+     .indentActivity {
+	margin-left: 0px;
+	max-width: 100%;
+    }
+}
+/* landscape */
+@media screen and (orientation:landscape) {
+    .indentActivity {
+	margin-left: 45px;
+    }
+    
+    .indentMinTen {
+	margin-left: 45px;
+    } 
+}
