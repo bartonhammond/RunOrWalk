@@ -7,7 +7,7 @@ if (Meteor.isClient) {
     var second = 1;
     var minute = 60 * second;
     
-    var run = 2 * minute;
+    var run = 4 * minute;
     var walk = 1 * minute;
     var countDown = 0;
     
